@@ -254,7 +254,7 @@ export default function Home() {
             {/* Personnel Card */}
             <div className="group relative bg-card border-2 border-blue-500 text-foreground p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-32 h-32 md:w-40 md:h-40 bg-gradient-to-br from-blue-500 to-cyan-500 mb-6 md:mb-8 shadow-md">
+                <div className="inline-flex items-center justify-center w-40 h-32 md:w-56 md:h-40 bg-gradient-to-br from-blue-500 to-cyan-500 mb-6 md:mb-8 shadow-md">
                   <AnimatedCounter
                     targetNumber={500}
                     suffix="+"
