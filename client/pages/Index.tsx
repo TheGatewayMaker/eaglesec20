@@ -232,66 +232,60 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {/* Experience Card */}
-            <div className="group relative bg-gradient-to-br from-accent/10 to-accent/5 border-2 border-accent text-foreground p-8 md:p-12 rounded-2xl md:rounded-3xl text-center hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-accent/0 to-accent/5 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-              <div className="absolute -right-20 -bottom-20 w-40 h-40 bg-accent rounded-full opacity-5 group-hover:opacity-10 transition-all duration-500"></div>
+            <div className="group relative bg-card border-2 border-accent text-foreground p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-20 h-20 md:w-24 md:h-24 bg-gradient-to-br from-accent to-yellow-500 rounded-2xl md:rounded-3xl mb-6 md:mb-8 shadow-lg group-hover:shadow-2xl group-hover:scale-110 transition-all duration-500">
+                <div className="inline-flex items-center justify-center w-32 h-32 md:w-40 md:h-40 bg-gradient-to-br from-accent to-yellow-500 mb-6 md:mb-8 shadow-md">
                   <AnimatedCounter
                     targetNumber={30}
                     suffix="+"
                     duration={2000}
-                    className="text-4xl md:text-5xl font-black text-accent-foreground"
+                    className="text-5xl md:text-6xl font-black text-accent-foreground"
                   />
                 </div>
-                <p className="text-lg md:text-2xl font-black text-foreground group-hover:text-accent transition-colors duration-300">
+                <p className="text-base md:text-lg font-black text-foreground">
                   Years of Experience
                 </p>
-                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-3 md:mt-4">
+                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-2 md:mt-3">
                   Protecting businesses since 1992
                 </p>
               </div>
             </div>
 
             {/* Personnel Card */}
-            <div className="group relative bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500 text-foreground p-8 md:p-12 rounded-2xl md:rounded-3xl text-center hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-blue-500/5 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-              <div className="absolute -right-20 -bottom-20 w-40 h-40 bg-blue-500 rounded-full opacity-5 group-hover:opacity-10 transition-all duration-500"></div>
+            <div className="group relative bg-card border-2 border-blue-500 text-foreground p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-20 h-20 md:w-24 md:h-24 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl md:rounded-3xl mb-6 md:mb-8 shadow-lg group-hover:shadow-2xl group-hover:scale-110 transition-all duration-500">
+                <div className="inline-flex items-center justify-center w-32 h-32 md:w-40 md:h-40 bg-gradient-to-br from-blue-500 to-cyan-500 mb-6 md:mb-8 shadow-md">
                   <AnimatedCounter
                     targetNumber={500}
                     suffix="+"
                     duration={2000}
-                    className="text-4xl md:text-5xl font-black text-white"
+                    className="text-5xl md:text-6xl font-black text-white"
                   />
                 </div>
-                <p className="text-lg md:text-2xl font-black text-foreground group-hover:text-blue-600 transition-colors duration-300">
+                <p className="text-base md:text-lg font-black text-foreground">
                   Trained Personnel
                 </p>
-                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-3 md:mt-4">
+                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-2 md:mt-3">
                   Elite security professionals
                 </p>
               </div>
             </div>
 
             {/* Clients Card */}
-            <div className="group relative bg-gradient-to-br from-slate-700/10 to-slate-700/5 border-2 border-slate-600 text-foreground p-8 md:p-12 rounded-2xl md:rounded-3xl text-center hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-slate-700/0 to-slate-700/5 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-              <div className="absolute -right-20 -bottom-20 w-40 h-40 bg-slate-700 rounded-full opacity-5 group-hover:opacity-10 transition-all duration-500"></div>
+            <div className="group relative bg-card border-2 border-slate-600 text-foreground p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-20 h-20 md:w-24 md:h-24 bg-gradient-to-br from-slate-700 to-slate-600 rounded-2xl md:rounded-3xl mb-6 md:mb-8 shadow-lg group-hover:shadow-2xl group-hover:scale-110 transition-all duration-500">
+                <div className="inline-flex items-center justify-center w-32 h-32 md:w-40 md:h-40 bg-gradient-to-br from-slate-700 to-slate-600 mb-6 md:mb-8 shadow-md">
                   <AnimatedCounter
                     targetNumber={100}
                     suffix="+"
                     duration={2000}
-                    className="text-4xl md:text-5xl font-black text-white"
+                    className="text-5xl md:text-6xl font-black text-white"
                   />
                 </div>
-                <p className="text-lg md:text-2xl font-black text-foreground group-hover:text-slate-700 transition-colors duration-300">
+                <p className="text-base md:text-lg font-black text-foreground">
                   Corporate Clients
                 </p>
-                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-3 md:mt-4">
+                <p className="text-xs md:text-sm font-bold text-muted-foreground mt-2 md:mt-3">
                   Trusted by leading organizations
                 </p>
               </div>
