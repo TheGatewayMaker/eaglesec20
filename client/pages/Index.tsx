@@ -50,11 +50,14 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right Visual */}
-            <div className="relative hidden md:block">
-              <div className="bg-gradient-to-br from-accent to-accent-foreground opacity-20 rounded-3xl overflow-hidden aspect-square flex items-center justify-center">
-                <Shield className="w-48 h-48 text-white opacity-40" />
-              </div>
+            {/* Right Visual - Hero Image */}
+            <div className="relative hidden md:block overflow-hidden rounded-lg shadow-2xl">
+              <img
+                src="https://images.pexels.com/photos/30487150/pexels-photo-30487150.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Professional security officers in training"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
             </div>
           </div>
         </div>
