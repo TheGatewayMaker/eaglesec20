@@ -7,7 +7,9 @@ export default function Services() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-24 md:py-32">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl md:text-6xl font-black mb-6">Our Security Services</h1>
+          <h1 className="text-5xl md:text-6xl font-black mb-6">
+            Our Security Services
+          </h1>
           <p className="text-xl opacity-90 max-w-2xl font-bold leading-relaxed">
             Comprehensive security solutions designed to protect what matters
             most to you
@@ -84,7 +86,9 @@ export default function Services() {
               <div className="order-1 md:order-2">
                 <div className="flex items-center gap-3 mb-6">
                   <Users className="w-12 h-12 text-accent" />
-                  <h2 className="text-4xl font-black text-slate-900">Bodyguards</h2>
+                  <h2 className="text-4xl font-black text-slate-900">
+                    Bodyguards
+                  </h2>
                 </div>
                 <p className="text-slate-700 leading-relaxed mb-8 text-lg font-bold">
                   Our bodyguards are mainly drawn from Special Service Group
@@ -198,11 +202,15 @@ export default function Services() {
                 <ul className="space-y-4">
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-bold">CCTV Cameras</span>
+                    <span className="text-slate-700 font-bold">
+                      CCTV Cameras
+                    </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-bold">Walkthrough Gates</span>
+                    <span className="text-slate-700 font-bold">
+                      Walkthrough Gates
+                    </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />

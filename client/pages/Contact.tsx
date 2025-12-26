@@ -68,7 +68,9 @@ export default function Contact() {
             <div className="bg-white p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
               <Phone className="w-10 h-10 text-accent mb-6" />
               <h3 className="text-2xl font-black text-slate-900 mb-4">Phone</h3>
-              <p className="text-slate-700 font-bold mb-2">For inquiries and quotes</p>
+              <p className="text-slate-700 font-bold mb-2">
+                For inquiries and quotes
+              </p>
               <p className="text-slate-600 font-bold">
                 Contact through our form or visit office
               </p>
@@ -94,7 +96,9 @@ export default function Contact() {
 
             {submitted && (
               <div className="bg-green-50 border-2 border-green-300 text-green-800 p-6 rounded-xl mb-8">
-                <p className="font-black mb-2 text-lg">Message Sent Successfully!</p>
+                <p className="font-black mb-2 text-lg">
+                  Message Sent Successfully!
+                </p>
                 <p className="font-bold">
                   Thank you for reaching out. We'll get back to you shortly.
                 </p>

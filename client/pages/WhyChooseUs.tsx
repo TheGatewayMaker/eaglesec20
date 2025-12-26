@@ -182,13 +182,17 @@ export default function WhyChooseUs() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-8 bg-white rounded-xl border-2 border-slate-200 shadow-sm hover:shadow-md transition-all">
-                  <h4 className="font-black text-slate-900 mb-3">Service Range</h4>
+                  <h4 className="font-black text-slate-900 mb-3">
+                    Service Range
+                  </h4>
                   <p className="text-slate-700 font-bold">
                     Static guards, bodyguards, escorts, and equipment
                   </p>
                 </div>
                 <div className="p-8 bg-white rounded-xl border-2 border-slate-200 shadow-sm hover:shadow-md transition-all">
-                  <h4 className="font-black text-slate-900 mb-3">Client Base</h4>
+                  <h4 className="font-black text-slate-900 mb-3">
+                    Client Base
+                  </h4>
                   <p className="text-slate-700 font-bold">
                     Government, banking, media, and corporate sectors
                   </p>

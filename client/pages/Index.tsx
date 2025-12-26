@@ -113,7 +113,9 @@ export default function Home() {
             <div className="bg-sky-500 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Users className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">Elite Bodyguards</h3>
+                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
+                  Elite Bodyguards
+                </h3>
                 <p className="text-sm md:text-lg font-bold opacity-95 mb-6 md:mb-8 leading-relaxed">
                   SSG trained specialists for high-level protection
                 </p>
@@ -131,7 +133,9 @@ export default function Home() {
             <div className="bg-amber-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Truck className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">Mobile Escorts</h3>
+                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
+                  Mobile Escorts
+                </h3>
                 <p className="text-sm md:text-lg font-bold opacity-95 mb-6 md:mb-8 leading-relaxed">
                   Professional protection during movement and transportation
                 </p>
@@ -149,7 +153,9 @@ export default function Home() {
             <div className="bg-slate-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
                 <Lock className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">Security Equipment</h3>
+                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">
+                  Security Equipment
+                </h3>
                 <p className="text-sm md:text-lg font-bold opacity-95 mb-6 md:mb-8 leading-relaxed">
                   Advanced surveillance and security systems
                 </p>
@@ -169,17 +175,29 @@ export default function Home() {
       {/* Value Proposition Section - With Background */}
       <section className="bg-gradient-to-r from-slate-800 to-slate-900 text-white relative overflow-hidden py-32 md:py-48">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{backgroundImage: "url('https://images.pexels.com/photos/3706640/pexels-photo-3706640.jpeg?auto=compress&cs=tinysrgb&w=1200')", backgroundSize: 'cover', backgroundPosition: 'center'}}></div>
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage:
+                "url('https://images.pexels.com/photos/3706640/pexels-photo-3706640.jpeg?auto=compress&cs=tinysrgb&w=1200')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          ></div>
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-800/95 to-slate-900/95"></div>
 
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl">
             <p className="text-3xl md:text-5xl font-black leading-tight mb-10">
-              We believe that in a world where security has become critical, a personalized approach is key to ensuring you get the protection you deserve.
+              We believe that in a world where security has become critical, a
+              personalized approach is key to ensuring you get the protection
+              you deserve.
             </p>
             <p className="text-lg md:text-2xl font-bold opacity-90 leading-relaxed">
-              From static guards and elite bodyguards to mobile escorts and advanced security equipment, we provide comprehensive, tailored solutions for every security need.
+              From static guards and elite bodyguards to mobile escorts and
+              advanced security equipment, we provide comprehensive, tailored
+              solutions for every security need.
             </p>
           </div>
         </div>
@@ -190,18 +208,28 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-accent text-accent-foreground p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-              <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">30+</p>
+              <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
+                30+
+              </p>
               <p className="text-base md:text-2xl font-bold leading-relaxed">
                 Years of Experience
               </p>
             </div>
             <div className="bg-primary text-primary-foreground p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-              <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">500+</p>
-              <p className="text-base md:text-2xl font-bold leading-relaxed">Trained Personnel</p>
+              <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
+                500+
+              </p>
+              <p className="text-base md:text-2xl font-bold leading-relaxed">
+                Trained Personnel
+              </p>
             </div>
             <div className="bg-slate-900 text-white p-8 md:p-12 rounded-xl md:rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-              <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">100+</p>
-              <p className="text-base md:text-2xl font-bold leading-relaxed">Corporate Clients</p>
+              <p className="text-4xl md:text-6xl font-black mb-2 md:mb-3">
+                100+
+              </p>
+              <p className="text-base md:text-2xl font-bold leading-relaxed">
+                Corporate Clients
+              </p>
             </div>
           </div>
         </div>
@@ -347,7 +375,9 @@ export default function Home() {
                 key={client}
                 className="aspect-square border-2 border-primary-foreground p-4 md:p-6 flex items-center justify-center text-center hover:bg-primary-foreground hover:text-primary hover:shadow-xl transition-all duration-300 cursor-pointer rounded"
               >
-                <p className="font-black text-xs md:text-base leading-tight">{client}</p>
+                <p className="font-black text-xs md:text-base leading-tight">
+                  {client}
+                </p>
               </div>
             ))}
           </div>
@@ -358,7 +388,8 @@ export default function Home() {
       <section className="py-20 md:py-48 bg-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-7xl font-black text-primary mb-8 md:mb-10 leading-tight">
-            Ready to Protect <br className="hidden md:block" />What Matters?
+            Ready to Protect <br className="hidden md:block" />
+            What Matters?
           </h2>
           <p className="text-base md:text-2xl font-bold text-slate-700 mb-12 md:mb-16 max-w-3xl mx-auto leading-relaxed">
             Contact our security experts today for a personalized consultation
@@ -392,7 +423,8 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-sm md:text-xl font-bold text-slate-700 ml-6 md:ml-8 max-w-2xl leading-relaxed">
-              Visit us at our Islamabad headquarters for consultations and inquiries
+              Visit us at our Islamabad headquarters for consultations and
+              inquiries
             </p>
           </div>
 
@@ -430,35 +462,54 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h5 className="font-black text-lg mb-8 uppercase tracking-wider">Services</h5>
+              <h5 className="font-black text-lg mb-8 uppercase tracking-wider">
+                Services
+              </h5>
               <ul className="space-y-4 text-base font-bold opacity-75">
                 <li>
-                  <Link to="/services" className="hover:text-accent transition-colors duration-300">
+                  <Link
+                    to="/services"
+                    className="hover:text-accent transition-colors duration-300"
+                  >
                     Static Guards
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services" className="hover:text-accent transition-colors duration-300">
+                  <Link
+                    to="/services"
+                    className="hover:text-accent transition-colors duration-300"
+                  >
                     Bodyguards
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services" className="hover:text-accent transition-colors duration-300">
+                  <Link
+                    to="/services"
+                    className="hover:text-accent transition-colors duration-300"
+                  >
                     Mobile Escorts
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services" className="hover:text-accent transition-colors duration-300">
+                  <Link
+                    to="/services"
+                    className="hover:text-accent transition-colors duration-300"
+                  >
                     Equipment
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h5 className="font-black text-lg mb-8 uppercase tracking-wider">Company</h5>
+              <h5 className="font-black text-lg mb-8 uppercase tracking-wider">
+                Company
+              </h5>
               <ul className="space-y-4 text-base font-bold opacity-75">
                 <li>
-                  <Link to="/about" className="hover:text-accent transition-colors duration-300">
+                  <Link
+                    to="/about"
+                    className="hover:text-accent transition-colors duration-300"
+                  >
                     About Us
                   </Link>
                 </li>
@@ -471,14 +522,19 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="hover:text-accent transition-colors duration-300">
+                  <Link
+                    to="/contact"
+                    className="hover:text-accent transition-colors duration-300"
+                  >
                     Contact
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h5 className="font-black text-lg mb-8 uppercase tracking-wider">Contact</h5>
+              <h5 className="font-black text-lg mb-8 uppercase tracking-wider">
+                Contact
+              </h5>
               <p className="text-base font-bold opacity-75 mb-3">
                 Islamabad, Pakistan
               </p>

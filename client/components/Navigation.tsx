@@ -28,7 +28,9 @@ export default function Navigation() {
             />
             <div className="flex flex-col gap-1">
               <span className="text-2xl font-black text-white">Eagle</span>
-              <span className="text-xs font-black tracking-widest text-accent">SECURITY GUARDS</span>
+              <span className="text-xs font-black tracking-widest text-accent">
+                SECURITY GUARDS
+              </span>
             </div>
           </Link>
 
@@ -52,9 +54,15 @@ export default function Navigation() {
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="flex flex-col gap-1.5 w-8 h-8 items-center justify-center hover:opacity-70 transition-opacity"
             >
-              <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${mobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></div>
-              <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${mobileMenuOpen ? 'opacity-0' : ''}`}></div>
-              <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${mobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></div>
+              <div
+                className={`w-6 h-0.5 bg-white transition-all duration-300 ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""}`}
+              ></div>
+              <div
+                className={`w-6 h-0.5 bg-white transition-all duration-300 ${mobileMenuOpen ? "opacity-0" : ""}`}
+              ></div>
+              <div
+                className={`w-6 h-0.5 bg-white transition-all duration-300 ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""}`}
+              ></div>
             </button>
           </div>
         </div>

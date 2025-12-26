@@ -26,16 +26,17 @@ export default function About() {
                 Our Background
               </h2>
               <p className="text-slate-700 leading-relaxed text-lg font-bold mb-6">
-                Eagle Security Guards was established in 1992. The company has the
-                NOC to operate all over Pakistan including AJK. Today the company
-                is one of the leading private security companies in Pakistan
-                upholding its credible name to provide most reliable, efficient
-                and cost effective guarding services.
+                Eagle Security Guards was established in 1992. The company has
+                the NOC to operate all over Pakistan including AJK. Today the
+                company is one of the leading private security companies in
+                Pakistan upholding its credible name to provide most reliable,
+                efficient and cost effective guarding services.
               </p>
               <p className="text-slate-700 leading-relaxed text-lg font-bold">
                 Our head office is located in Islamabad with regional/branch
                 offices in almost all major cities of Pakistan, ensuring
-                comprehensive coverage and local expertise throughout the nation.
+                comprehensive coverage and local expertise throughout the
+                nation.
               </p>
             </div>
             <div className="overflow-hidden rounded-xl shadow-lg h-96">
@@ -87,7 +88,9 @@ export default function About() {
             <div className="bg-white p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
               <div className="flex items-center gap-3 mb-6">
                 <Compass className="w-8 h-8 text-accent flex-shrink-0" />
-                <h3 className="text-2xl font-black text-slate-900">Commitment</h3>
+                <h3 className="text-2xl font-black text-slate-900">
+                  Commitment
+                </h3>
               </div>
               <p className="text-slate-700 leading-relaxed font-bold">
                 Providing most reliable, efficient and cost effective guarding
@@ -103,7 +106,9 @@ export default function About() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-6 max-w-3xl">
           <div className="mb-14">
-            <h2 className="text-4xl font-black text-slate-900 mb-8">Our Story</h2>
+            <h2 className="text-4xl font-black text-slate-900 mb-8">
+              Our Story
+            </h2>
             <p className="text-slate-700 leading-relaxed text-lg font-bold mb-6">
               Eagle Security Guards (Pvt) Ltd draws its main pool of manpower
               from the armed forces of Pakistan, ensuring that our personnel
