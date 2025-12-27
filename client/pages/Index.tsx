@@ -78,7 +78,7 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-16 sm:py-20 md:py-40 bg-background transition-colors duration-300">
+      <section className="py-16 sm:py-20 md:py-40 bg-gradient-to-b from-background via-background to-background/95 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6">
           {/* Section Title with Visual Styling */}
           <div className="mb-10 sm:mb-16 md:mb-20">
