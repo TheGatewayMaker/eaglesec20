@@ -82,16 +82,19 @@ export default function GuardsByRegion() {
               Regional Breakdown
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6">
-              {data.map((item, i) => (
+              {data.map((item, index) => (
                 <div
-                  key={i}
+                  key={index}
                   className="bg-gradient-to-br from-background to-background/80 border border-border rounded-lg p-4 text-center hover:shadow-md transition-all duration-300"
                 >
-                  <div className="w-3 h-3 rounded-full mx-auto mb-3" style={{ backgroundColor: colors[i] }}></div>
+                  <div
+                    className="w-3 h-3 rounded-full mx-auto mb-3"
+                    style={{ backgroundColor: colors[index] }}
+                  ></div>
                   <p className="text-xs md:text-sm font-black text-foreground mb-2">
                     {item.name}
                   </p>
-                  <p className="text-lg md:text-2xl font-black" style={{ color: colors[i] }}>
+                  <p className="text-lg md:text-2xl font-black" style={{ color: colors[index] }}>
                     {item.guards}
                   </p>
                 </div>
