@@ -207,7 +207,7 @@ export default function Services() {
               </div>
               <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
-                  src="https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://i.ibb.co/QFqy3fgb/Screenshot-2025-12-27-at-10-24-31-PM.png"
                   alt="Mobile security escort team"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
