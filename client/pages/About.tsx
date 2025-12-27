@@ -157,9 +157,9 @@ export default function About() {
       </section>
 
       {/* Why Choose Us & Standards Section - Side by Side */}
-      <section className="py-20 md:py-28 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+      <section className="py-14 sm:py-20 md:py-28 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-16">
             {/* Why Choose Us Section */}
             <div>
               <div className="mb-12 text-center md:text-left">
