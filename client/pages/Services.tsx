@@ -83,7 +83,7 @@ export default function Services() {
                     alt="Eagle Security Logo"
                     className="w-20 sm:w-32 md:w-44 h-20 sm:h-32 md:h-44 object-contain opacity-100"
                   />
-                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     Get a Quote Now
                   </span>
                 </div>
@@ -110,7 +110,7 @@ export default function Services() {
                     alt="Eagle Security Logo"
                     className="w-20 sm:w-32 md:w-44 h-20 sm:h-32 md:h-44 object-contain opacity-100"
                   />
-                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     Get a Quote Now
                   </span>
                 </div>
@@ -215,7 +215,7 @@ export default function Services() {
                     alt="Eagle Security Logo"
                     className="w-20 sm:w-32 md:w-44 h-20 sm:h-32 md:h-44 object-contain opacity-100"
                   />
-                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     Get a Quote Now
                   </span>
                 </div>
@@ -242,7 +242,7 @@ export default function Services() {
                     alt="Eagle Security Logo"
                     className="w-20 sm:w-32 md:w-44 h-20 sm:h-32 md:h-44 object-contain opacity-100"
                   />
-                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
+                  <span className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 cursor-pointer">
                     Get a Quote Now
                   </span>
                 </div>
