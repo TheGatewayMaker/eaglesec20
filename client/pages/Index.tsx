@@ -17,7 +17,7 @@ export default function Home() {
       <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-12 sm:py-16 md:py-32 transition-colors duration-300">
         {/* Hero Background Image - Right Half Only */}
         <div
-          className="hidden md:block absolute right-0 top-0 w-[calc(50%+2rem)] h-full -mr-6"
+          className="hidden md:block absolute right-12 top-8 w-[calc(50%+2rem)] h-full -mr-6"
           style={{
             backgroundImage:
               "url('https://cdn.builder.io/api/v1/image/assets%2F151c661f676241159dc387d4f0557eb8%2Fc6fb9be958f544c6a63756ea3bde1005?format=webp&width=800')",
