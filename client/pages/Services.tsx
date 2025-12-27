@@ -45,26 +45,26 @@ export default function Services() {
                 <ul className="space-y-4">
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Comprehensive personal data screening and vetting process
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Database verification to ensure no blacklisted guards join
                       ranks
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Professional training in security protocols and procedures
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Reliable and efficient protection for premises
                     </span>
                   </li>
@@ -130,25 +130,25 @@ export default function Services() {
                 <ul className="space-y-4">
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Elite personnel from Special Service Group (SSG)
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Cream of handpicked men dedicated to difficult missions
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Advanced threat assessment and response training
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Protection in high-risk security scenarios
                     </span>
                   </li>
@@ -178,25 +178,25 @@ export default function Services() {
                 <ul className="space-y-4">
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Protection during personnel movement and transit
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Fully trained teams in defensive measures
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Emergency response protocols for any situation
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Discrete and professional protection services
                     </span>
                   </li>
@@ -262,25 +262,25 @@ export default function Services() {
                 <ul className="space-y-4">
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       CCTV Cameras
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Walkthrough Gates
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Wireless Communication Devices
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground font-bold text-sm md:text-base">
+                    <span className="text-muted-foreground font-black text-base md:text-lg">
                       Barbed Wire Protection
                     </span>
                   </li>
