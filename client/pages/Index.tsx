@@ -441,7 +441,7 @@ export default function Home() {
 
       {/* Presence Section */}
       <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+        <div className="container mx-auto px-0 sm:px-6 w-full">
           {/* Section Title with Visual Styling */}
           <div className="mb-12 sm:mb-16 md:mb-24">
             <div className="flex items-center gap-3 md:gap-4 mb-4 sm:mb-6">
