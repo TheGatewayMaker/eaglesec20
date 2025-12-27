@@ -276,7 +276,7 @@ export default function Home() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-12 sm:py-16 md:py-28 bg-background transition-colors duration-300">
+      <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background to-background transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {/* Experience Card */}
