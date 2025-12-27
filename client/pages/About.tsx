@@ -18,7 +18,7 @@ export default function About() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1400')",
+              "url('https://i.ibb.co/zHTFCPHD/Screenshot-2025-12-27-at-10-22-45-PM.png')",
             backgroundPosition: "center",
           }}
         />
