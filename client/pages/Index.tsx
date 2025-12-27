@@ -57,13 +57,13 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                 <Link
                   to="/services"
-                  className="bg-accent text-accent-foreground px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg text-center hover:shadow-xl transition-shadow duration-300 inline-block"
+                  className="bg-accent text-accent-foreground px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:shadow-xl transition-shadow duration-300 inline-block rounded-none"
                 >
                   Explore Services
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-2 border-accent text-accent px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block"
+                  className="border-2 border-accent text-accent px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block rounded-none"
                 >
                   Request Consultation
                 </Link>
@@ -93,22 +93,22 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-6 sm:mb-8">
-            {/* Bodyguards Card - First */}
-            <div className="bg-card text-foreground border border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
-              <div className="relative overflow-hidden h-48 sm:h-56 md:h-72">
+          <div className="space-y-8 md:space-y-12">
+            {/* Service 1 - Bodyguards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
+              <div className="relative overflow-hidden h-56 md:h-80 order-2 md:order-1">
                 <img
                   src="https://images.pexels.com/photos/27517900/pexels-photo-27517900.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Elite bodyguard protection services"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="p-6 sm:p-8 md:p-10">
-                <Users className="w-12 md:w-14 h-12 md:h-14 mb-4 md:mb-6 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6 leading-tight">
+              <div className="bg-card text-foreground p-8 md:p-12 flex flex-col justify-center order-1 md:order-2">
+                <Users className="w-14 h-14 mb-6 text-accent" />
+                <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight">
                   Elite Bodyguards
                 </h3>
-                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6">
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-8">
                   Our SSG-trained specialists deliver executive-level protection
                   with tactical expertise and discretion. Every bodyguard
                   undergoes rigorous military training and psychological
@@ -116,7 +116,7 @@ export default function Home() {
                 </p>
                 <Link
                   to="/services"
-                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300"
+                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
                 >
                   Learn More
                   <ArrowRight className="w-4 h-4" />
@@ -124,28 +124,28 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Static Guards Card - Second */}
-            <div className="bg-card text-foreground border border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
-              <div className="relative overflow-hidden h-48 sm:h-56 md:h-72">
+            {/* Service 2 - Static Guards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
+              <div className="relative overflow-hidden h-56 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional security guards with tactical gear"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="p-6 sm:p-8 md:p-10">
-                <Shield className="w-12 md:w-14 h-12 md:h-14 mb-4 md:mb-6 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6 leading-tight">
+              <div className="bg-card text-foreground p-8 md:p-12 flex flex-col justify-center">
+                <Shield className="w-14 h-14 mb-6 text-accent" />
+                <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight">
                   Static Security Guards
                 </h3>
-                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6">
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-8">
                   Our vetted security professionals provide round-the-clock
                   on-site protection with military discipline and precision.
                   Each guard undergoes comprehensive background screening.
                 </p>
                 <Link
                   to="/services"
-                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300"
+                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
                 >
                   Learn More
                   <ArrowRight className="w-4 h-4" />
@@ -153,28 +153,28 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Mobile Escorts Card */}
-            <div className="bg-card text-foreground border border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
-              <div className="relative overflow-hidden h-48 sm:h-56 md:h-72">
+            {/* Service 3 - Mobile Escorts */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
+              <div className="relative overflow-hidden h-56 md:h-80 order-2 md:order-1">
                 <img
                   src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional mobile escort security services"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="p-6 sm:p-8 md:p-10">
-                <Truck className="w-12 md:w-14 h-12 md:h-14 mb-4 md:mb-6 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6 leading-tight">
+              <div className="bg-card text-foreground p-8 md:p-12 flex flex-col justify-center order-1 md:order-2">
+                <Truck className="w-14 h-14 mb-6 text-accent" />
+                <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight">
                   Mobile Escorts
                 </h3>
-                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6">
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-8">
                   Our mobile escort teams provide seamless protection during
                   transit and travel. We offer route planning, threat
                   assessment, and coordinated security response.
                 </p>
                 <Link
                   to="/services"
-                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300"
+                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
                 >
                   Learn More
                   <ArrowRight className="w-4 h-4" />
@@ -182,28 +182,28 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Security Equipment Card */}
-            <div className="bg-card text-foreground border border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
-              <div className="relative overflow-hidden h-48 sm:h-56 md:h-72">
+            {/* Service 4 - Security Equipment */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
+              <div className="relative overflow-hidden h-56 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Advanced security equipment and surveillance systems"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="p-6 sm:p-8 md:p-10">
-                <Lock className="w-12 md:w-14 h-12 md:h-14 mb-4 md:mb-6 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6 leading-tight">
+              <div className="bg-card text-foreground p-8 md:p-12 flex flex-col justify-center">
+                <Lock className="w-14 h-14 mb-6 text-accent" />
+                <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight">
                   Security Equipment
                 </h3>
-                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6">
+                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-8">
                   We deploy state-of-the-art surveillance, access control, and
                   security monitoring systems tailored to your facility. From
                   CCTV networks to integrated platforms.
                 </p>
                 <Link
                   to="/services"
-                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300"
+                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
                 >
                   Learn More
                   <ArrowRight className="w-4 h-4" />
@@ -412,7 +412,7 @@ export default function Home() {
                   ].map((city) => (
                     <div
                       key={city}
-                      className="bg-accent text-white px-4 md:px-6 py-3 md:py-4 text-center font-black text-sm md:text-base leading-tight transition-all duration-300 hover:shadow-lg hover:opacity-90"
+                      className="bg-accent text-white px-4 md:px-5 py-2 md:py-2.5 text-center font-black text-xs md:text-sm leading-tight transition-all duration-300 hover:shadow-lg hover:opacity-90 rounded-none"
                     >
                       {city}
                     </div>
@@ -488,13 +488,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
             <Link
               to="/contact"
-              className="bg-accent text-accent-foreground px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg text-center hover:shadow-lg transition-shadow duration-300 inline-block"
+              className="bg-accent text-accent-foreground px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:shadow-lg transition-shadow duration-300 inline-block rounded-none"
             >
               Start Your Consultation
             </Link>
             <Link
               to="/services"
-              className="border-2 border-accent text-accent px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block"
+              className="border-2 border-accent text-accent px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block rounded-none"
             >
               View Services
             </Link>
