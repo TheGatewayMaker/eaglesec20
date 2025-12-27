@@ -84,7 +84,7 @@ export default function Home() {
           <div className="mb-10 sm:mb-16 md:mb-20">
             <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-4 sm:mb-6 md:mb-8">
               <div className="w-1 sm:w-1.5 md:w-2 h-8 sm:h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-2xl sm:text-3xl md:text-6xl font-black text-foreground leading-tight">
+              <h2 className="text-2xl sm:text-3xl md:text-6xl font-black leading-tight">
                 Our Security Services
               </h2>
             </div>
