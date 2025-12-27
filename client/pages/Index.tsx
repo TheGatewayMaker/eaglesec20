@@ -282,12 +282,12 @@ export default function Home() {
             {/* Experience Card */}
             <div className="group relative bg-card border-2 border-accent text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-accent to-blue-700 mb-4 sm:mb-6 md:mb-8 shadow-md">
+                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-accent to-blue-600 mb-4 sm:mb-6 md:mb-8 shadow-lg shadow-accent/30">
                   <AnimatedCounter
                     targetNumber={30}
                     suffix="+"
                     duration={2000}
-                    className="text-4xl sm:text-5xl md:text-6xl font-black text-accent-foreground"
+                    className="text-4xl sm:text-5xl md:text-6xl font-black text-white"
                   />
                 </div>
                 <p className="text-sm sm:text-base md:text-lg font-black text-foreground">
