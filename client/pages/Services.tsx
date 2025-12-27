@@ -12,7 +12,7 @@ export default function Services() {
   return (
     <div className="bg-background transition-colors duration-300">
       {/* Hero Section */}
-      <section className="bg-background text-foreground py-16 sm:py-20 md:py-32 transition-colors duration-300">
+      <section className="bg-background text-foreground py-12 sm:py-16 md:py-24 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
             <div className="w-1 md:w-1.5 h-10 md:h-12 bg-accent rounded-full flex-shrink-0"></div>
@@ -27,7 +27,7 @@ export default function Services() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-12 sm:py-16 md:py-28 bg-background transition-colors duration-300">
+      <section className="py-10 sm:py-14 md:py-20 bg-background transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           {/* Static Security Guards */}
           <div className="mb-10 sm:mb-16 md:mb-20 pb-8 sm:pb-12 md:pb-16 border-b border-border">
@@ -72,7 +72,7 @@ export default function Services() {
                   </li>
                 </ul>
               </div>
-              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
+              <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional security guards with tactical gear"
@@ -99,7 +99,7 @@ export default function Services() {
               className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in"
               style={{ animationDelay: "100ms" }}
             >
-              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
+              <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Elite security professional in uniform"
@@ -204,7 +204,7 @@ export default function Services() {
                   </li>
                 </ul>
               </div>
-              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
+              <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Mobile security escort team"
@@ -231,7 +231,7 @@ export default function Services() {
             style={{ animationDelay: "300ms" }}
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
+              <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional security equipment and surveillance"
@@ -294,7 +294,7 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-background py-16 sm:py-20 md:py-32 transition-colors duration-300">
+      <section className="bg-background py-12 sm:py-16 md:py-24 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 text-center max-w-4xl">
           <h2 className="text-3xl sm:text-4xl md:text-5xl text-foreground mb-6 md:mb-8 font-black">
             Need Custom Security Solutions?
