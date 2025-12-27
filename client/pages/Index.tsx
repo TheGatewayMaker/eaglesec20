@@ -237,67 +237,61 @@ export default function Home() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background to-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+      <section className="py-16 sm:py-20 md:py-32 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {/* Experience Card */}
-            <div className="group relative bg-card border border-accent/60 text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-2xl hover:border-accent transition-all duration-300">
-              <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-accent to-blue-900 mb-4 sm:mb-6 md:mb-8 shadow-lg shadow-accent/40">
-                  <AnimatedCounter
-                    targetNumber={30}
-                    suffix="+"
-                    duration={2000}
-                    className="text-4xl sm:text-5xl md:text-6xl font-black text-white"
-                  />
-                </div>
-                <p className="text-sm sm:text-base md:text-lg font-black text-foreground">
-                  Years of Experience
-                </p>
-                <p className="text-xs font-bold text-muted-foreground mt-1 sm:mt-2 md:mt-3">
-                  Protecting businesses since 1992
-                </p>
+            <div className="bg-card border border-border text-foreground p-8 md:p-12 text-center transition-shadow duration-300 hover:shadow-lg">
+              <div className="mb-8 md:mb-10">
+                <AnimatedCounter
+                  targetNumber={30}
+                  suffix="+"
+                  duration={2000}
+                  className="text-5xl md:text-7xl font-black text-accent"
+                />
               </div>
+              <h3 className="text-xl md:text-2xl font-black text-foreground mb-3">
+                Years of Experience
+              </h3>
+              <p className="text-sm md:text-base font-bold text-muted-foreground">
+                Protecting businesses since 1992
+              </p>
             </div>
 
             {/* Personnel Card */}
-            <div className="group relative bg-card border border-blue-500/60 text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-2xl hover:border-blue-500 transition-all duration-300">
-              <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-blue-500 to-cyan-500 mb-4 sm:mb-6 md:mb-8 shadow-md">
-                  <AnimatedCounter
-                    targetNumber={500}
-                    suffix="+"
-                    duration={2000}
-                    className="text-4xl sm:text-5xl md:text-6xl font-black text-white"
-                  />
-                </div>
-                <p className="text-sm sm:text-base md:text-lg font-black text-foreground">
-                  Trained Personnel
-                </p>
-                <p className="text-xs font-bold text-muted-foreground mt-1 sm:mt-2 md:mt-3">
-                  Elite security professionals
-                </p>
+            <div className="bg-card border border-border text-foreground p-8 md:p-12 text-center transition-shadow duration-300 hover:shadow-lg">
+              <div className="mb-8 md:mb-10">
+                <AnimatedCounter
+                  targetNumber={500}
+                  suffix="+"
+                  duration={2000}
+                  className="text-5xl md:text-7xl font-black text-accent"
+                />
               </div>
+              <h3 className="text-xl md:text-2xl font-black text-foreground mb-3">
+                Trained Personnel
+              </h3>
+              <p className="text-sm md:text-base font-bold text-muted-foreground">
+                Elite security professionals
+              </p>
             </div>
 
             {/* Clients Card */}
-            <div className="group relative bg-card border border-slate-600/60 text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-2xl hover:border-slate-600 transition-all duration-300">
-              <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-slate-700 to-slate-600 mb-4 sm:mb-6 md:mb-8 shadow-md">
-                  <AnimatedCounter
-                    targetNumber={100}
-                    suffix="+"
-                    duration={2000}
-                    className="text-4xl sm:text-5xl md:text-6xl font-black text-white"
-                  />
-                </div>
-                <p className="text-sm sm:text-base md:text-lg font-black text-foreground">
-                  Corporate Clients
-                </p>
-                <p className="text-xs font-bold text-muted-foreground mt-1 sm:mt-2 md:mt-3">
-                  Trusted by leading organizations
-                </p>
+            <div className="bg-card border border-border text-foreground p-8 md:p-12 text-center transition-shadow duration-300 hover:shadow-lg">
+              <div className="mb-8 md:mb-10">
+                <AnimatedCounter
+                  targetNumber={100}
+                  suffix="+"
+                  duration={2000}
+                  className="text-5xl md:text-7xl font-black text-accent"
+                />
               </div>
+              <h3 className="text-xl md:text-2xl font-black text-foreground mb-3">
+                Corporate Clients
+              </h3>
+              <p className="text-sm md:text-base font-bold text-muted-foreground">
+                Trusted by leading organizations
+              </p>
             </div>
           </div>
         </div>
