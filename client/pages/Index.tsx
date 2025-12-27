@@ -21,7 +21,7 @@ export default function Home() {
       }}
     >
       {/* Hero Section */}
-      <section className="bg-background text-foreground relative overflow-hidden py-16 sm:py-20 md:py-40 transition-colors duration-300 animate-fade-in">
+      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-16 sm:py-20 md:py-40 transition-colors duration-300 animate-fade-in">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 right-20 w-80 h-80 bg-accent rounded-full blur-3xl"></div>
         </div>
