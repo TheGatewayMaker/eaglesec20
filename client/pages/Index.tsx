@@ -133,7 +133,7 @@ export default function Home() {
 
             {/* Static Guards Card - Second */}
             <div
-              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300 hover:shadow-2xl hover:border-accent/50"
+              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border/60 animate-slide-in-from-bottom transition-all duration-300 hover:shadow-2xl hover:border-accent/40"
               style={{ animationDelay: "200ms" }}
             >
               <div className="relative overflow-hidden h-48 sm:h-56 md:h-80">
@@ -169,7 +169,7 @@ export default function Home() {
 
             {/* Mobile Escorts Card */}
             <div
-              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300 hover:shadow-2xl hover:border-accent/50"
+              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border/60 animate-slide-in-from-bottom transition-all duration-300 hover:shadow-2xl hover:border-accent/40"
               style={{ animationDelay: "300ms" }}
             >
               <div className="relative overflow-hidden h-48 sm:h-56 md:h-80">
@@ -205,7 +205,7 @@ export default function Home() {
 
             {/* Security Equipment Card */}
             <div
-              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300 hover:shadow-2xl hover:border-accent/50"
+              className="bg-card text-foreground p-0 overflow-hidden relative group border border-border/60 animate-slide-in-from-bottom transition-all duration-300 hover:shadow-2xl hover:border-accent/40"
               style={{ animationDelay: "400ms" }}
             >
               <div className="relative overflow-hidden h-48 sm:h-56 md:h-80">
