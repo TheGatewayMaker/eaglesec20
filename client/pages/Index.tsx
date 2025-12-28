@@ -280,7 +280,9 @@ export default function Home() {
               <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
               <div className="relative z-10">
                 <div className="w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4 lg:mb-6">
-                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">01</span>
+                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">
+                    01
+                  </span>
                 </div>
                 <h3 className="text-lg sm:text-2xl lg:text-3xl font-black leading-tight mb-2 sm:mb-3 lg:mb-4 text-foreground">
                   Expert Threat Assessment
@@ -297,7 +299,9 @@ export default function Home() {
               <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
               <div className="relative z-10">
                 <div className="w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4 lg:mb-6">
-                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">02</span>
+                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">
+                    02
+                  </span>
                 </div>
                 <h3 className="text-lg sm:text-2xl lg:text-3xl font-black leading-tight mb-2 sm:mb-3 lg:mb-4 text-foreground">
                   Rapid Response Capability
@@ -314,7 +318,9 @@ export default function Home() {
               <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
               <div className="relative z-10">
                 <div className="w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4 lg:mb-6">
-                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">03</span>
+                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">
+                    03
+                  </span>
                 </div>
                 <h3 className="text-lg sm:text-2xl lg:text-3xl font-black leading-tight mb-2 sm:mb-3 lg:mb-4 text-foreground">
                   Advanced Training & Standards
@@ -332,7 +338,9 @@ export default function Home() {
               <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
               <div className="relative z-10">
                 <div className="w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4 lg:mb-6">
-                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">04</span>
+                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">
+                    04
+                  </span>
                 </div>
                 <h3 className="text-lg sm:text-2xl lg:text-3xl font-black leading-tight mb-2 sm:mb-3 lg:mb-4 text-foreground">
                   Legal & Compliance Protection
@@ -350,7 +358,9 @@ export default function Home() {
               <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
               <div className="relative z-10">
                 <div className="w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4 lg:mb-6">
-                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">05</span>
+                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">
+                    05
+                  </span>
                 </div>
                 <h3 className="text-lg sm:text-2xl lg:text-3xl font-black leading-tight mb-2 sm:mb-3 lg:mb-4 text-foreground">
                   Peace of Mind & Confidence
@@ -367,7 +377,9 @@ export default function Home() {
               <div className="absolute -right-12 -top-12 w-32 h-32 bg-accent/5 rounded-full group-hover:bg-accent/10 transition-all duration-300 group-hover:scale-110"></div>
               <div className="relative z-10">
                 <div className="w-10 sm:w-12 lg:w-14 h-10 sm:h-12 lg:h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4 lg:mb-6">
-                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">06</span>
+                  <span className="text-lg sm:text-xl lg:text-2xl font-black text-accent">
+                    06
+                  </span>
                 </div>
                 <h3 className="text-lg sm:text-2xl lg:text-3xl font-black leading-tight mb-2 sm:mb-3 lg:mb-4 text-foreground">
                   Proven Track Record

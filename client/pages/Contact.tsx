@@ -61,7 +61,9 @@ export default function Contact() {
               <h3 className="text-lg sm:text-2xl font-black text-foreground mb-3 sm:mb-4">
                 Head Office
               </h3>
-              <p className="text-sm sm:text-base text-muted-foreground font-bold mb-1 sm:mb-2">Islamabad</p>
+              <p className="text-sm sm:text-base text-muted-foreground font-bold mb-1 sm:mb-2">
+                Islamabad
+              </p>
               <p className="text-xs sm:text-sm text-muted-foreground/80 font-bold leading-relaxed">
                 Central coordination hub for all operations
               </p>
@@ -248,7 +250,9 @@ export default function Contact() {
               <h3 className="text-lg sm:text-2xl font-black text-foreground mb-4 sm:mb-6">
                 Head Office
               </h3>
-              <p className="font-black text-foreground mb-2 text-sm sm:text-base">Islamabad</p>
+              <p className="font-black text-foreground mb-2 text-sm sm:text-base">
+                Islamabad
+              </p>
               <p className="text-muted-foreground font-bold text-xs sm:text-sm leading-relaxed">
                 Central coordination and management
               </p>

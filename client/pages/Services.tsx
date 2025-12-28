@@ -227,10 +227,7 @@ export default function Services() {
           </div>
 
           {/* Security Equipment */}
-          <div
-            className="animate-fade-in"
-            style={{ animationDelay: "300ms" }}
-          >
+          <div className="animate-fade-in" style={{ animationDelay: "300ms" }}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12 items-center">
               <div className="overflow-hidden shadow-lg h-40 sm:h-48 md:h-64 lg:h-96 group relative order-2 md:order-1">
                 <img
