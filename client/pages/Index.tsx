@@ -563,23 +563,23 @@ export default function Home() {
       </section>
 
       {/* Presence Section */}
-      <section className="py-12 sm:py-16 md:py-28 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
-        <div className="container mx-auto px-0 sm:px-6 w-full">
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6 w-full">
           {/* Section Title with Visual Styling */}
-          <div className="mb-12 sm:mb-16 md:mb-24 px-4 sm:px-0">
-            <div className="flex items-center gap-3 md:gap-4 mb-4 sm:mb-6">
-              <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
-              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black leading-tight">
+          <div className="mb-8 sm:mb-12 md:mb-16 lg:mb-24">
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 lg:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
                 National Presence
               </h2>
             </div>
-            <p className="text-sm md:text-lg font-bold text-muted-foreground ml-0 max-w-3xl leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
               Offices across Pakistan ensuring reliable coverage and local
               expertise
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center px-4 sm:px-0">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             {/* Left Side - Cities and Offices */}
             <div className="flex flex-col space-y-8 md:space-y-10">
               {/* Head Office */}
