@@ -476,8 +476,10 @@ export default function Home() {
                   </p>
                   <button
                     onClick={() => {
-                      const element = document.getElementById('head-office-location');
-                      element?.scrollIntoView({ behavior: 'smooth' });
+                      const element = document.getElementById(
+                        "head-office-location",
+                      );
+                      element?.scrollIntoView({ behavior: "smooth" });
                     }}
                     className="text-blue-300 font-black text-sm md:text-base hover:text-blue-200 transition-colors duration-300"
                   >
@@ -656,7 +658,10 @@ export default function Home() {
       </section>
 
       {/* Location Section with Google Maps */}
-      <section id="head-office-location" className="py-14 md:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300">
+      <section
+        id="head-office-location"
+        className="py-14 md:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300"
+      >
         <div className="container mx-auto px-0 sm:px-6 w-full">
           <div className="mb-12 md:mb-16">
             <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">

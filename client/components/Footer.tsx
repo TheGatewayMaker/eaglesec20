@@ -23,13 +23,16 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm font-bold leading-relaxed text-white/90">
-              Professional security services with trained personnel from the armed forces of Pakistan. Serving since 1992.
+              Professional security services with trained personnel from the
+              armed forces of Pakistan. Serving since 1992.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-black text-lg mb-6 text-white uppercase tracking-widest">Quick Links</h4>
+            <h4 className="font-black text-lg mb-6 text-white uppercase tracking-widest">
+              Quick Links
+            </h4>
             <ul className="space-y-3">
               <li>
                 <Link
@@ -72,7 +75,9 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-black text-lg mb-6 text-white uppercase tracking-widest">Services</h4>
+            <h4 className="font-black text-lg mb-6 text-white uppercase tracking-widest">
+              Services
+            </h4>
             <ul className="space-y-3">
               <li>
                 <Link
@@ -115,27 +120,35 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-black text-lg mb-6 text-white uppercase tracking-widest">Get In Touch</h4>
+            <h4 className="font-black text-lg mb-6 text-white uppercase tracking-widest">
+              Get In Touch
+            </h4>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-300 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-white">Head Office</p>
-                  <p className="text-sm font-bold text-white/80">Islamabad, Pakistan</p>
+                  <p className="text-sm font-bold text-white/80">
+                    Islamabad, Pakistan
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-blue-300 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-white">Call Us</p>
-                  <p className="text-sm font-bold text-white/80">24/7 Support Available</p>
+                  <p className="text-sm font-bold text-white/80">
+                    24/7 Support Available
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-blue-300 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-white">Email</p>
-                  <p className="text-sm font-bold text-white/80">info@eaglesecurity.pk</p>
+                  <p className="text-sm font-bold text-white/80">
+                    info@eaglesecurity.pk
+                  </p>
                 </div>
               </div>
             </div>
