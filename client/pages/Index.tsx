@@ -469,7 +469,19 @@ export default function Home() {
             {/* Left Side - Cities and Offices */}
             <div className="flex flex-col space-y-8 md:space-y-10">
               {/* Head Office */}
-              <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 border border-pk-green-main/20">
+              <div className="relative">
+                <div className="absolute -top-4 -right-4 md:-top-6 md:-right-6 z-10">
+                  <button
+                    onClick={() => {
+                      const element = document.getElementById('head-office-location');
+                      element?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white px-4 md:px-6 py-2 md:py-3 font-black text-xs md:text-sm border border-pk-green-main/20 transition-all duration-300 hover:shadow-lg"
+                  >
+                    Get Directions
+                  </button>
+                </div>
+                <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 border border-pk-green-main/20">
                 <p className="font-black text-xs uppercase tracking-widest mb-4 md:mb-6 text-white">
                   Head Office
                 </p>
@@ -479,6 +491,7 @@ export default function Home() {
                 <p className="text-base md:text-lg font-black text-white leading-relaxed">
                   Central coordination and management hub
                 </p>
+              </div>
               </div>
 
               {/* Regional Offices with City Buttons */}
@@ -645,8 +658,8 @@ export default function Home() {
       </section>
 
       {/* Location Section with Google Maps */}
-      <section className="py-14 md:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+      <section id="head-office-location" className="py-14 md:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300">
+        <div className="container mx-auto px-0 sm:px-6 w-full">
           <div className="mb-12 md:mb-16">
             <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
               <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
