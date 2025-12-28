@@ -14,7 +14,7 @@ export default function LogoCarousel({ logos }: LogoCarouselProps) {
   const isDraggingRef = useRef(false);
   const dragStartXRef = useRef(0);
   const dragStartScrollRef = useRef(0);
-  const [isHovering, setIsHovering] = useState(false);
+  const isHoveringRef = useRef(false);
   const animationFrameRef = useRef<number>();
 
   // Create duplicated logos for infinite scroll effect
@@ -26,30 +26,30 @@ export default function LogoCarousel({ logos }: LogoCarouselProps) {
     if (!container) return;
 
     const scrollSpeed = 0.8; // pixels per frame
-    let lastScrollLeft = 0;
+    let isInitialized = false;
 
     const autoScroll = () => {
-      if (isDraggingRef.current || isHovering) {
-        animationFrameRef.current = requestAnimationFrame(autoScroll);
-        return;
+      if (!isInitialized) {
+        // Set initial scroll position to middle set for seamless looping
+        container.scrollLeft = container.scrollWidth / 3;
+        isInitialized = true;
       }
 
-      container.scrollLeft += scrollSpeed;
+      // Only scroll if not dragging and not hovering
+      if (!isDraggingRef.current && !isHoveringRef.current) {
+        container.scrollLeft += scrollSpeed;
 
-      // Calculate the scroll width for one set of logos
-      const singleSetWidth = container.scrollWidth / 3;
+        // Calculate the scroll width for one set of logos
+        const singleSetWidth = container.scrollWidth / 3;
 
-      // Reset to beginning when reaching the middle set
-      if (container.scrollLeft >= singleSetWidth * 2) {
-        container.scrollLeft = singleSetWidth;
+        // Reset to beginning when reaching the middle set
+        if (container.scrollLeft >= singleSetWidth * 2) {
+          container.scrollLeft = singleSetWidth;
+        }
       }
 
-      lastScrollLeft = container.scrollLeft;
       animationFrameRef.current = requestAnimationFrame(autoScroll);
     };
-
-    // Set initial scroll position to middle set for seamless looping
-    container.scrollLeft = (container.scrollWidth / 3);
 
     animationFrameRef.current = requestAnimationFrame(autoScroll);
 
@@ -58,15 +58,12 @@ export default function LogoCarousel({ logos }: LogoCarouselProps) {
         cancelAnimationFrame(animationFrameRef.current);
       }
     };
-  }, [isHovering]);
+  }, []);
 
   const handlePointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
     isDraggingRef.current = true;
     dragStartXRef.current = e.clientX;
     dragStartScrollRef.current = scrollContainerRef.current?.scrollLeft || 0;
-    if (animationFrameRef.current) {
-      cancelAnimationFrame(animationFrameRef.current);
-    }
   };
 
   const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
@@ -81,6 +78,14 @@ export default function LogoCarousel({ logos }: LogoCarouselProps) {
     isDraggingRef.current = false;
   };
 
+  const handleMouseEnter = () => {
+    isHoveringRef.current = true;
+  };
+
+  const handleMouseLeave = () => {
+    isHoveringRef.current = false;
+  };
+
   return (
     <div className="relative w-full">
       {/* Carousel Container */}
@@ -90,8 +95,8 @@ export default function LogoCarousel({ logos }: LogoCarouselProps) {
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
         onPointerLeave={handlePointerUp}
-        onMouseEnter={() => setIsHovering(true)}
-        onMouseLeave={() => setIsHovering(false)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
         className="flex gap-8 md:gap-12 overflow-x-auto px-4 sm:px-6 py-8 scrollbar-hide cursor-grab active:cursor-grabbing"
         style={{
           scrollbarWidth: "none",
