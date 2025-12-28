@@ -142,30 +142,30 @@ export default function Home() {
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
                     <Link
                       to="/services"
-                      className="bg-accent text-accent-foreground px-8 md:px-10 py-3 md:py-3.5 font-black text-sm md:text-base hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg"
+                      className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2 sm:py-3 lg:py-3.5 font-black text-xs sm:text-sm lg:text-base hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg"
                     >
                       Get a Quote
                     </Link>
                   </div>
                 </div>
-                <div className="p-6 md:p-8 flex flex-col flex-grow">
-                  <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                    <Shield className="w-7 h-7 text-accent" />
+                <div className="p-4 sm:p-6 lg:p-8 flex flex-col flex-grow">
+                  <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4">
+                    <Shield className="w-5 sm:w-7 h-5 sm:h-7 text-accent" />
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-black mb-3 leading-tight text-foreground">
+                  <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
                     Static Security Guards
                   </h3>
-                  <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6 flex-grow">
+                  <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
                     Our vetted security professionals provide round-the-clock
                     on-site protection with military discipline and precision.
                     Each guard undergoes comprehensive background screening.
                   </p>
                   <Link
                     to="/services"
-                    className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
+                    className="inline-flex items-center gap-2 text-accent font-black text-xs sm:text-sm lg:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
                   >
                     Learn More
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-3 sm:w-4 h-3 sm:h-4" />
                   </Link>
                 </div>
               </div>
@@ -183,30 +183,30 @@ export default function Home() {
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
                     <Link
                       to="/services"
-                      className="bg-accent text-accent-foreground px-8 md:px-10 py-3 md:py-3.5 font-black text-sm md:text-base hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg"
+                      className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2 sm:py-3 lg:py-3.5 font-black text-xs sm:text-sm lg:text-base hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg"
                     >
                       Get a Quote
                     </Link>
                   </div>
                 </div>
-                <div className="p-6 md:p-8 flex flex-col flex-grow">
-                  <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                    <Truck className="w-7 h-7 text-accent" />
+                <div className="p-4 sm:p-6 lg:p-8 flex flex-col flex-grow">
+                  <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4">
+                    <Truck className="w-5 sm:w-7 h-5 sm:h-7 text-accent" />
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-black mb-3 leading-tight text-foreground">
+                  <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
                     Mobile Escorts
                   </h3>
-                  <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6 flex-grow">
+                  <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
                     Our mobile escort teams provide seamless protection during
                     transit and travel. We offer route planning, threat
                     assessment, and coordinated security response.
                   </p>
                   <Link
                     to="/services"
-                    className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
+                    className="inline-flex items-center gap-2 text-accent font-black text-xs sm:text-sm lg:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
                   >
                     Learn More
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-3 sm:w-4 h-3 sm:h-4" />
                   </Link>
                 </div>
               </div>
@@ -224,30 +224,30 @@ export default function Home() {
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
                     <Link
                       to="/services"
-                      className="bg-accent text-accent-foreground px-8 md:px-10 py-3 md:py-3.5 font-black text-sm md:text-base hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg"
+                      className="bg-accent text-accent-foreground px-6 sm:px-8 lg:px-10 py-2 sm:py-3 lg:py-3.5 font-black text-xs sm:text-sm lg:text-base hover:shadow-2xl hover:scale-105 transition-all duration-300 rounded-lg"
                     >
                       Get a Quote
                     </Link>
                   </div>
                 </div>
-                <div className="p-6 md:p-8 flex flex-col flex-grow">
-                  <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                    <Lock className="w-7 h-7 text-accent" />
+                <div className="p-4 sm:p-6 lg:p-8 flex flex-col flex-grow">
+                  <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-3 sm:mb-4">
+                    <Lock className="w-5 sm:w-7 h-5 sm:h-7 text-accent" />
                   </div>
-                  <h3 className="text-2xl md:text-3xl font-black mb-3 leading-tight text-foreground">
+                  <h3 className="text-lg sm:text-2xl lg:text-3xl font-black mb-2 sm:mb-3 leading-tight text-foreground">
                     Security Equipment
                   </h3>
-                  <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6 flex-grow">
+                  <p className="text-xs sm:text-sm lg:text-base font-bold leading-relaxed text-muted-foreground mb-4 sm:mb-6 flex-grow">
                     We deploy state-of-the-art surveillance, access control, and
                     security monitoring systems tailored to your facility. From
                     CCTV networks to integrated platforms.
                   </p>
                   <Link
                     to="/services"
-                    className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
+                    className="inline-flex items-center gap-2 text-accent font-black text-xs sm:text-sm lg:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
                   >
                     Learn More
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-3 sm:w-4 h-3 sm:h-4" />
                   </Link>
                 </div>
               </div>
