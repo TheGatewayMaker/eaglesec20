@@ -62,7 +62,7 @@ export default function GuardsByRegion() {
         </div>
 
         {/* Chart Container */}
-        <div className="bg-card border border-border rounded-lg p-4 md:p-8 shadow-sm transition-all duration-300 hover:shadow-lg">
+        <div className="bg-card border border-border rounded-lg p-4 md:p-8 shadow-sm transition-all duration-300 hover:shadow-lg mx-4 sm:mx-0">
           <ResponsiveContainer width="100%" height={320}>
             <BarChart
               data={data}
