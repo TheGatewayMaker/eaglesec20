@@ -397,7 +397,7 @@ export default function Home() {
         <div className="container mx-auto px-0 sm:px-6 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-6">
             {/* Experience Card */}
-            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-black group cursor-pointer">
+            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
               <div className="mb-4 md:mb-6 flex items-center justify-center h-16 md:h-20">
                 <AnimatedCounter
                   targetNumber={30}
@@ -418,7 +418,7 @@ export default function Home() {
             </div>
 
             {/* Personnel Card */}
-            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-black group cursor-pointer">
+            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
               <div className="mb-4 md:mb-6 flex items-center justify-center h-16 md:h-20">
                 <AnimatedCounter
                   targetNumber={500}
@@ -439,7 +439,7 @@ export default function Home() {
             </div>
 
             {/* Clients Card */}
-            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-black group cursor-pointer">
+            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
               <div className="mb-4 md:mb-6 flex items-center justify-center h-16 md:h-20">
                 <AnimatedCounter
                   targetNumber={100}
@@ -460,7 +460,7 @@ export default function Home() {
             </div>
 
             {/* Total Guards Deployed Card */}
-            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-black group cursor-pointer">
+            <div className="aspect-square bg-card border border-border text-foreground p-6 md:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:bg-pk-green-main group cursor-pointer">
               <div className="mb-4 md:mb-6 flex items-center justify-center h-16 md:h-20">
                 <AnimatedCounter
                   targetNumber={1541}
