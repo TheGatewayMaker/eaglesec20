@@ -17,7 +17,7 @@ export default function Footer() {
               />
               <div className="flex flex-col">
                 <h3 className="text-2xl font-black text-white">Eagle</h3>
-                <span className="text-xs font-black tracking-widest text-blue-300">
+                <span className="text-xs font-black tracking-widest text-green-300">
                   SECURITY GUARDS
                 </span>
               </div>
@@ -37,36 +37,36 @@ export default function Footer() {
               <li>
                 <Link
                   to="/"
-                  className="font-bold text-white hover:text-blue-300 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full"></span>
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
                   Home
                 </Link>
               </li>
               <li>
                 <Link
                   to="/services"
-                  className="font-bold text-white hover:text-blue-300 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full"></span>
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
                   Services
                 </Link>
               </li>
               <li>
                 <Link
                   to="/about"
-                  className="font-bold text-white hover:text-blue-300 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full"></span>
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
                   About Us
                 </Link>
               </li>
               <li>
                 <Link
                   to="/contact"
-                  className="font-bold text-white hover:text-blue-300 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full"></span>
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
                   Contact
                 </Link>
               </li>
@@ -82,36 +82,36 @@ export default function Footer() {
               <li>
                 <Link
                   to="/services"
-                  className="font-bold text-white hover:text-blue-300 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full"></span>
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
                   Elite Bodyguards
                 </Link>
               </li>
               <li>
                 <Link
                   to="/services"
-                  className="font-bold text-white hover:text-blue-300 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full"></span>
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
                   Mobile Escorts
                 </Link>
               </li>
               <li>
                 <Link
                   to="/services"
-                  className="font-bold text-white hover:text-blue-300 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full"></span>
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
                   Static Guards
                 </Link>
               </li>
               <li>
                 <Link
                   to="/services"
-                  className="font-bold text-white hover:text-blue-300 transition-colors duration-300 inline-flex items-center gap-2"
+                  className="font-bold text-white hover:text-green-300 transition-colors duration-300 inline-flex items-center gap-2"
                 >
-                  <span className="w-1.5 h-1.5 bg-blue-300 rounded-full"></span>
+                  <span className="w-1.5 h-1.5 bg-green-300 rounded-full"></span>
                   Security Equipment
                 </Link>
               </li>
@@ -125,7 +125,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-blue-300 flex-shrink-0 mt-0.5" />
+                <MapPin className="w-5 h-5 text-green-300 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-white">Head Office</p>
                   <p className="text-sm font-bold text-white/80">
@@ -134,7 +134,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 text-blue-300 flex-shrink-0 mt-0.5" />
+                <Phone className="w-5 h-5 text-green-300 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-white">Call Us</p>
                   <p className="text-sm font-bold text-white/80">
@@ -143,7 +143,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-blue-300 flex-shrink-0 mt-0.5" />
+                <Mail className="w-5 h-5 text-green-300 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-white">Email</p>
                   <p className="text-sm font-bold text-white/80">
@@ -164,13 +164,13 @@ export default function Footer() {
             <div className="flex gap-6">
               <a
                 href="#privacy"
-                className="font-bold text-white hover:text-blue-300 transition-colors duration-300"
+                className="font-bold text-white hover:text-green-300 transition-colors duration-300"
               >
                 Privacy Policy
               </a>
               <a
                 href="#terms"
-                className="font-bold text-white hover:text-blue-300 transition-colors duration-300"
+                className="font-bold text-white hover:text-green-300 transition-colors duration-300"
               >
                 Terms of Service
               </a>
