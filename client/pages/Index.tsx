@@ -742,25 +742,25 @@ export default function Home() {
       <CompanyWiseDeployments />
 
       {/* CTA Section */}
-      <section className="py-14 md:py-28 bg-gradient-to-b from-background to-background/98 transition-colors duration-300">
+      <section className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background to-background/98 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 text-center max-w-4xl">
-          <h2 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black mb-4 sm:mb-6 md:mb-8 leading-tight">
             Ready to Protect What Matters?
           </h2>
-          <p className="text-base md:text-xl font-bold text-muted-foreground mb-10 md:mb-14 leading-relaxed">
+          <p className="text-xs sm:text-sm md:text-base lg:text-xl font-bold text-muted-foreground mb-6 sm:mb-8 md:mb-10 lg:mb-14 leading-relaxed">
             Contact our security experts today for a personalized consultation
             and secure your peace of mind
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 justify-center">
             <Link
               to="/contact"
-              className="bg-accent text-accent-foreground px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:shadow-lg transition-shadow duration-300 inline-block rounded-none"
+              className="bg-accent text-accent-foreground px-5 sm:px-6 md:px-8 py-2 sm:py-2.5 md:py-3 font-black text-xs sm:text-sm md:text-base lg:text-lg text-center hover:shadow-lg transition-shadow duration-300 inline-block rounded-lg"
             >
               Start Your Consultation
             </Link>
             <Link
               to="/services"
-              className="border-2 border-accent text-accent px-6 md:px-8 py-2.5 md:py-3 font-black text-sm md:text-base text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block rounded-none"
+              className="border-2 border-accent text-accent px-5 sm:px-6 md:px-8 py-2 sm:py-2.5 md:py-3 font-black text-xs sm:text-sm md:text-base lg:text-lg text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block rounded-lg"
             >
               View Services
             </Link>
@@ -771,17 +771,17 @@ export default function Home() {
       {/* Location Section with Google Maps */}
       <section
         id="head-office-location"
-        className="py-14 md:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300"
+        className="py-10 sm:py-14 md:py-20 lg:py-28 bg-gradient-to-b from-background/98 to-background transition-colors duration-300"
       >
-        <div className="container mx-auto px-0 sm:px-6 w-full">
-          <div className="mb-12 md:mb-16">
-            <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
-              <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
-              <h2 className="text-3xl md:text-6xl font-black leading-tight">
+        <div className="container mx-auto px-4 sm:px-6 w-full">
+          <div className="mb-8 sm:mb-12 md:mb-16">
+            <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 mb-3 sm:mb-4 md:mb-6">
+              <div className="w-1 md:w-1.5 h-8 sm:h-10 lg:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-black leading-tight">
                 Our Head Office Location
               </h2>
             </div>
-            <p className="text-sm md:text-lg font-bold text-muted-foreground ml-0 max-w-3xl leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
               Visit us at our Islamabad headquarters for consultations and
               inquiries
             </p>
