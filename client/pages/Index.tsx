@@ -507,7 +507,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="border-2 border-pk-green-main/30 p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group" style={{ background: 'linear-gradient(to bottom right, var(--background), rgba(var(--background-rgb), 0.8))' }} onMouseEnter={(e) => { e.currentTarget.style.background = '#000000'; }} onMouseLeave={(e) => { e.currentTarget.style.background = 'linear-gradient(to bottom right, var(--background), rgba(var(--background-rgb), 0.8))'; }}>
+              <div className="border-2 border-pk-green-main/30 bg-gradient-to-br from-background to-background/80 p-6 md:p-8 transition-all duration-300 hover:shadow-lg cursor-pointer group hover:bg-black" style={{ }}>
                 <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-white transition-colors duration-300">
                   National Coverage
                 </p>
